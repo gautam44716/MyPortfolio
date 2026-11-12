@@ -1,0 +1,89 @@
+/* Stopwatch specific styles */
+
+.stopwatch {
+  max-width: 420px;
+}
+
+/* ---------- Time display ---------- */
+.time-display {
+  background-color: var(--dark);
+  color: var(--light);
+  border-radius: 16px;
+  padding: 26px 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: clamp(2.4rem, 11vw, 3.6rem);
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-variant-numeric: tabular-nums;
+}
+
+.time-display small {
+  font-size: 0.55em;
+  color: var(--accent);
+}
+
+/* ---------- Buttons ---------- */
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+.controls .btn-app {
+  flex: 1;
+}
+
+/* Start button turns into "Pause" - this class changes its colour */
+.btn-app.running {
+  background-color: #b8860b;
+}
+
+.btn-lap {
+  background-color: var(--accent);
+  color: var(--dark);
+}
+
+.btn-lap:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.btn-reset {
+  background-color: #c0564a;
+}
+
+.btn-reset:hover {
+  background-color: #8f362c;
+}
+
+.btn-app:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ---------- Lap list ---------- */
+.lap-list {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.lap-list li {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-left: 4px solid var(--primary);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.lap-list li span:first-child {
+  color: var(--primary);
+  font-weight: 600;
+}

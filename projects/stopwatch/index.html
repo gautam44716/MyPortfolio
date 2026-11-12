@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch | Gautam Parihar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../common.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a href="../../index.html#projects" class="back-link">&larr; Back to Portfolio</a>
+
+  <div class="app-card stopwatch">
+    <h2 class="app-title">Stopwatch</h2>
+
+    <!-- Time display -->
+    <div class="time-display">
+      <span id="minutes">00</span>:<span id="seconds">00</span><small>.<span id="millis">00</span></small>
+    </div>
+
+    <!-- Control buttons -->
+    <div class="controls">
+      <button id="startBtn" class="btn-app">Start</button>
+      <button id="lapBtn" class="btn-app btn-lap" disabled>Lap</button>
+      <button id="resetBtn" class="btn-app btn-reset">Reset</button>
+    </div>
+
+    <!-- Lap list -->
+    <ul id="lapList" class="lap-list"></ul>
+  </div>
+
+  <p class="page-footer">
+    Source code on <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+  </p>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
