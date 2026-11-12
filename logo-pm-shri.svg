@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="56" fill="#6A89A7"/>
+  <circle cx="60" cy="60" r="48" fill="none" stroke="#BDDDFC" stroke-width="2"/>
+  <!-- open book -->
+  <path d="M30 44 Q45 38 60 46 Q75 38 90 44 V78 Q75 72 60 80 Q45 72 30 78 Z" fill="#BDDDFC"/>
+  <path d="M60 46 V80" stroke="#6A89A7" stroke-width="2"/>
+  <text x="60" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#BDDDFC">PM SHRI</text>
+  <text x="60" y="97" text-anchor="middle" font-family="Arial, sans-serif" font-weight="600" font-size="9" fill="#BDDDFC">PUBLIC SCHOOL</text>
+</svg>

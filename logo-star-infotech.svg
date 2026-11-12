@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect x="4" y="4" width="112" height="112" rx="24" fill="#384959"/>
+  <!-- star -->
+  <polygon points="60,18 70,44 98,44 76,60 84,87 60,71 36,87 44,60 22,44 50,44" fill="#88BDF2"/>
+  <text x="60" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="12" fill="#BDDDFC">STAR INFOTECH</text>
+</svg>

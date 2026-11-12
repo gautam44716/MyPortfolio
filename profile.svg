@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" width="400" height="460">
+  <rect width="400" height="460" fill="#CFFFDC"/>
+  <circle cx="200" cy="165" r="78" fill="#2E6F40"/>
+  <path d="M60 460 C60 330 140 275 200 275 C260 275 340 330 340 460 Z" fill="#2E6F40"/>
+  <circle cx="200" cy="165" r="78" fill="#68BA7F" opacity="0.35"/>
+  <text x="200" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#253D2C">Add your photo: images/profile.jpg</text>
+</svg>
